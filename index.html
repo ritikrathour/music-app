@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="shortcut icon" href="images/01.jpg " type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="music_header flex">
+            <i class="fas fa-angle-down"></i>
+            <h3 class="music_header_title">Now Playing</h3>
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="music_image">
+            <img src="./images/04.jpeg" alt="">
+        </div>
+        <div class="music_artists">
+            <h2 class="music_name">Beauz & Jvna - Crazy</h2>
+            <h4 class="name">Arijit Singh</h4>
+        </div>
+        
+        <div class="music_progress_bar">
+            <div class="progress_area">
+                <div class="progress_bar"></div>
+                <audio id="main_music" src=""></audio>  
+            </div>
+            <div class="music_time flex">
+                <span class="music_current">0:20</span>
+                <span class="music_duration">2:50</span>
+            </div>
+        </div>
+        <div class="music_controls flex">
+            <i class="fas fa-retweet" id="retweet"></i>
+            <i class="fas fa-step-backward" id="prev"></i>
+            <i class="fas fa-play " id="playPause"></i>
+            <i class="fas fa-step-forward" id="next"></i>
+            <i class="fas fa-outdent" id="music_list " ></i>
+        </div>
+        </div> 
+    </div> 
+</body>
+
+</html>
